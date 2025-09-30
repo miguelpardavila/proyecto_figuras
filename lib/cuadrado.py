@@ -6,3 +6,7 @@ def get_identificador(palabra):
 	palabra="cuadrado"
 	return palabra
 
+def get_parametro(lado):
+	perimetro=lado*4
+	return perimetro
+
