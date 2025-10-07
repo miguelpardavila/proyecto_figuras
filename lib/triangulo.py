@@ -1,10 +1,10 @@
-get_identificador(id):
+def get_identificador(id):
 	id="triangulo"
 	return id
-get_area(base,altura):
+def get_area(base,altura):
 	area=base*altura
 	return area
-get_perimetro(lado_a,lado_b,lado_c):
+def get_perimetro(lado_a,lado_b,lado_c):
 	perimetro=lado_a+lado_b+lado_c
 	return perimetro
 
